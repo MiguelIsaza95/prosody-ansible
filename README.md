@@ -19,6 +19,7 @@ This role:
 ## Role Variables
 
 The following variables should be set:
+
   * `prosody_domain` - the hostname of your server (e.g. `example.com`)
   * `prosody_db_password` - PostgreSQL database password (can be anything, the DB is created automatically)
   * `prosody_enable_mam` - whether or not to enable the MAM module (default is `True`).
@@ -27,7 +28,7 @@ The following variables should be set:
 
 1. Create and run a playbook:
 
-    ```
+    ```yaml
       - hosts: servers
         roles:
           - prosody
