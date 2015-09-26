@@ -54,8 +54,8 @@ The following variables should be set:
     chat.example.com. 1800 IN A 192.168.1.99
     _xmpp-client._tcp.example.com. 1800 IN SRV 5 0 5222 chat.example.com.
     _xmpp-server._tcp.example.com. 1800 IN SRV 5 0 5269 chat.example.com.
-    conference.example.com. 1800 IN A 192.168.1.99
-    ftproxy.example.com. 1800 IN A 192.168.1.99
+    ftproxy.example.com. 1800 IN CNAME chat.example.com.
+    conference.example.com. 1800 IN CNAME chat.example.com.
     _xmpp-server._tcp.conference.example.com. 1800 IN SRV 5 0 5269 chat.example.com.
     ```
 
