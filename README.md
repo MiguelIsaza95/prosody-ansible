@@ -1,5 +1,7 @@
 # Prosody ansible role
 
+**Moved to https://gitlab.com/lxmx-tech/prosody-ansible**
+
 This role:
 
 1. Facilitates the [Prosody](https://www.prosody.im) XMPP server installation
